@@ -1,8 +1,28 @@
 header.masthead {
-    background-image: url("../assets/img/keyboardblack2.jpg");
+    /* color: black; */
+    color: #212529
+}
+
+header.masthead {
+    background-image: url("../assets/img/pexels-pixabay-434337.jpg");
     background-attachment: fixed;
 }
 
 header.masthead .masthead-heading {
     margin-bottom: 32px;
+}
+        
+img.stretch-image {
+    width: 100%;
+    height: auto;
+}
+            
+#skills {
+    background-image: url("../assets/img/keyboardblack2.jpg");
+    background-attachment: fixed;
+    color: white;
+}
+
+.skill-icon {
+    font-size: 100px;
 }
