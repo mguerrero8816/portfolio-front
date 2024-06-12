@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function About() {
     return (
-        <section className="page-section bg-light">
+        <header className="masthead">
             <div className="container">
                 <div className="row">
                     <div className='col-sm-4'>
@@ -12,16 +12,25 @@ function About() {
                         </div>
                     </div>
                     <div className='col-sm-8'>
+                        <div className='text-center'>
+                            <h3 className='masthead-subheading'>Hi, I'm Mike Guerrero</h3>
+                            <h2 className='masthead-heading'>Software Engineer Ruby on Rails</h2>
+                            <h4>I have 8 years of professional experience working with Ruby on Rails, Javascript, jQuery and PostgreSQL.</h4>
+                        </div>
+                        
                         <p className="large text-muted">
-                            I am Software Engineer with 8 years of professional experience working with Ruby on Rails, Javascript, jQuery and PostgreSQL. I've spent the last two years of my career leading a team of 3 developers in maintaining, updating and adding new features to a monolithic Ruby on Rails application and a collection of microservices designed as a business management platform for Ceatus Media Group.
+                            
                         </p>
                         <p className="large text-muted">
-                            I believe that mentorship plays an important role in an engineers career and community. At Ceatus, I restarted and ran the internship program where I mentored a total of 20 junior developers in application development, stakeholder management, and professional team collaboration.
+                             I've spent the last two years of my career leading a team of 3 developers in maintaining, updating and adding new features to a monolithic Ruby on Rails application and a collection of microservices designed as a business management platform for Ceatus Media Group.
+                        </p>
+                        <p className="large text-muted">
+                            I believe that mentorship plays an important role in an engineers career and community. At Ceatus, I restarted and ran the internship program where I mentored a total of 20 junior developers in application development, stakeholder management, and professional team collaboration.  I also leveraged the internship program to hire 2 junior developers as full time employees to the Ceatus dev team.
                         </p>
                     </div>
                 </div>
             </div>
-        </section>
+        </header>
     );
 }
 

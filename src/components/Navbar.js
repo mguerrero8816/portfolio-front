@@ -10,8 +10,8 @@ function Navbar() {
           <ul className="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
             <li className="nav-item"><a className="nav-link" href="#about">About</a></li>
             <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
+            <li className="nav-item"><a className="nav-link" href="#achievements">Achievements</a></li>
             <li className="nav-item"><a className="nav-link" href="#portfolio">Career</a></li>
-            <li className="nav-item"><a className="nav-link" href="#contact">Contact</a></li>
           </ul>
         </div>
       </div>

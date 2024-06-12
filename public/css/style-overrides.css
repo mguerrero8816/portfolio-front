@@ -1,0 +1,8 @@
+header.masthead {
+    background-image: url("../assets/img/keyboardblack2.jpg");
+    background-attachment: fixed;
+}
+
+header.masthead .masthead-heading {
+    margin-bottom: 32px;
+}
