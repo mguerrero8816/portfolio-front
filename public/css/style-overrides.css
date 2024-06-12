@@ -38,3 +38,10 @@ img.stretch-image {
 .text-left {
     text-align: left;
 }
+
+#career {
+    background-image: url("../assets/img/pexels-shabbirahasan-13769473.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+}

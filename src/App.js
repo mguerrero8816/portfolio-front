@@ -5,6 +5,7 @@ import Navbar from './components/Navbar';
 import About from './components/About';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
+import Career from './components/Career';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <About />
         <Skills />
         <Achievements />
+        <Career />
       </div>
     </Router>
   );
