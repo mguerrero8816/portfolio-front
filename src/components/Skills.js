@@ -17,7 +17,6 @@ function Skills() {
                 <SkillIcon textLabel={'CSS'} deviconClass={'css3'} />
                 <SkillIcon textLabel={'Godot'} deviconClass={'godot'} />
 
-
                 <SkillIcon textLabel={'Rails'} deviconClass={'rails'} />
                 <SkillIcon textLabel={'jQuery'} deviconClass={'jquery'} />
                 <SkillIcon textLabel={'React'} deviconClass={'react'} />
