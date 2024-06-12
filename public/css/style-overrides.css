@@ -43,5 +43,10 @@ img.stretch-image {
     background-image: url("../assets/img/pexels-shabbirahasan-13769473.jpg");
     background-attachment: fixed;
     background-size: cover;
+    background-position-y: -350px;
     color: white;
+}
+
+#career .timeline-panel {
+    text-align: left;
 }
