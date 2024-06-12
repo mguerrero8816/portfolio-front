@@ -6,6 +6,7 @@ header.masthead {
 header.masthead {
     background-image: url("../assets/img/pexels-pixabay-434337.jpg");
     background-attachment: fixed;
+    background-size: cover;
 }
 
 header.masthead .masthead-heading {
@@ -20,9 +21,20 @@ img.stretch-image {
 #skills {
     background-image: url("../assets/img/keyboardblack2.jpg");
     background-attachment: fixed;
+    background-size: cover;
     color: white;
 }
 
 .skill-icon {
     font-size: 100px;
+}
+
+/* #achievements {
+    background-image: url("../assets/img/pexels-vladvictoria-12478054.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.text-left {
+    text-align: left;
 }

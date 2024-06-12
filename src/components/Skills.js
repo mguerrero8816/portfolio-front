@@ -26,10 +26,10 @@ function Skills() {
                 
                 <SkillIcon textLabel={'AWS'} deviconClass={'amazonwebservices'} />
                 <SkillIcon textLabel={'Docker'} deviconClass={'docker'} />
-                <SkillIcon textLabel={'Nginx'} deviconClass={'nginx'} />
-                <SkillIcon textLabel={'Git'} deviconClass={'git'} />
-                <SkillIcon textLabel={'Github'} deviconClass={'github'} />
                 <SkillIcon textLabel={'Redis'} deviconClass={'redis'} />
+                <SkillIcon textLabel={'Nginx'} deviconClass={'nginx'} />
+                <SkillIcon textLabel={'Apache'} deviconClass={'apache'} />
+                <SkillIcon textLabel={'Git'} deviconClass={'git'} />
             </div>
         </div>
     </div>
