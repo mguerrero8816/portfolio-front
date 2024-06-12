@@ -13,7 +13,7 @@ function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#career">Career</a></li>
             {/* <li className="nav-item"><a className="nav-link" href="#portfolio">Projects</a></li>
             <li className="nav-item"><a className="nav-link" href="#portfolio">Contact</a></li> */}
-            <li className="nav-item"><a className="nav-link" href="#education">Education</a></li>
+            {/* <li className="nav-item"><a className="nav-link" href="#career">Education</a></li> */}
           </ul>
         </div>
       </div>
