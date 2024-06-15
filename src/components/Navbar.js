@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import DropboxModalButton from './dropbox/DropboxModalButton';
 
 function Navbar() {
   return (
@@ -11,6 +11,7 @@ function Navbar() {
             <li className="nav-item"><a className="nav-link" href="#skills">Skills</a></li>
             <li className="nav-item"><a className="nav-link" href="#achievements">Achievements</a></li>
             <li className="nav-item"><a className="nav-link" href="#career">Career</a></li>
+            <DropboxModalButton />
             {/* <li className="nav-item"><a className="nav-link" href="#portfolio">Projects</a></li>
             <li className="nav-item"><a className="nav-link" href="#portfolio">Contact</a></li> */}
             {/* <li className="nav-item"><a className="nav-link" href="#career">Education</a></li> */}
