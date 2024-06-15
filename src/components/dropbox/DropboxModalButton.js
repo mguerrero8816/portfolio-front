@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import Modal from 'react-modal';
+import DropboxAccount from './DropboxAccount'
 
 Modal.setAppElement('#root'); // This is important for screen readers
 
@@ -20,7 +21,7 @@ const DropboxModal = ({ isOpen, onRequestClose }) => {
 				},
 			}}
 		>
-			<h2>Hello, I'm a Modal!</h2>
+			<DropboxAccount />
 			<button onClick={onRequestClose}>Close</button>
 		</Modal>
 	);
