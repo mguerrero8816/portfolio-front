@@ -6,8 +6,6 @@ import About from './components/About';
 import Skills from './components/Skills';
 import Achievements from './components/Achievements';
 import Career from './components/Career';
-import Education from './components/Education';
-// import DropboxAccount from './components/dropbox/DropboxAccount';
 
 function App() {
   return (
@@ -15,7 +13,6 @@ function App() {
       <div id='page-top'>
         <Navbar />
         <About />
-        {/* <DropboxAccount /> */}
         <Skills />
         <Achievements />
         <Career />
