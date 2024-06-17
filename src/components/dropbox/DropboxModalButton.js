@@ -24,8 +24,8 @@ const DropboxModal = ({ isOpen, onRequestClose, dropboxCode }) => {
 			}}
 		>
 			
-			<DropboxAuthButton dropboxCode={dropboxCode}/>
-			<DropboxCodeButton dropboxCode={dropboxCode}/>
+			{/* <DropboxAuthButton dropboxCode={dropboxCode}/>
+			<DropboxCodeButton dropboxCode={dropboxCode}/> */}
 			<DropboxAccount />
 			<button onClick={onRequestClose}>Close</button>
 		</Modal>
