@@ -3,7 +3,7 @@ import { useLocation } from 'react-router-dom';
 import Modal from 'react-modal';
 import DropboxAccount from './DropboxAccount'
 import DropboxCodeButton from './DropboxCodeButton'
-
+import DropboxAuthButton from './DropboxAuthButton'
 Modal.setAppElement('#root'); // This is important for screen readers
 
 const DropboxModal = ({ isOpen, onRequestClose, dropboxCode }) => {
@@ -24,6 +24,7 @@ const DropboxModal = ({ isOpen, onRequestClose, dropboxCode }) => {
 			}}
 		>
 			
+			<DropboxAuthButton dropboxCode={dropboxCode}/>
 			<DropboxCodeButton dropboxCode={dropboxCode}/>
 			<DropboxAccount />
 			<button onClick={onRequestClose}>Close</button>

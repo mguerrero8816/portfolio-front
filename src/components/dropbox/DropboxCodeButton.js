@@ -8,7 +8,7 @@ const DropboxCodeButton = ({ dropboxCode }) => {
     const dropboxKey = process.env.REACT_APP_DROPBOX_KEY
     const dropbboxRedirect = process.env.REACT_APP_DROPBOX_REDIRECT
   
-    const authUrl = `https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=${dropboxKey}&redirect_uri=${encodeURIComponent(dropbboxRedirect)}`;
+    const authUrl = `https://www.dropbox.com/oauth2/authorize?response_type=code&client_id=${dropboxKey}&token_access_type=offline&redirect_uri=${encodeURIComponent(dropbboxRedirect)}`;
   
     const handleLogin = () => {
       window.location.href = authUrl;
@@ -17,7 +17,7 @@ const DropboxCodeButton = ({ dropboxCode }) => {
     return (
       <div>
         {dropboxCode && (
-          <div>Current Code: {`${dropboxCode}`}</div>
+          <div>Current Code: {dropboxCode}</div>
         )}
         <button onClick={handleLogin}>Get New Code</button>
       </div>
